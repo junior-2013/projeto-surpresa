@@ -1,0 +1,27 @@
+*{ padding: 0px; margin: 0px;}
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+:root{
+    --fonte2: 'DM Serif Display', serif;
+    --fonte3: font-family: 'Courgette', cursive;
+}
+
+header{background-color:black; padding-top: 40px; font-family: var(--fonte3); color: white; text-align: center; font-variant: small-caps;}
+header>p{ padding-bottom: 40px; padding-top: 20px; font-weight: bolder; font-size: 3vw; border: 20px; margin: 20px;}
+header>h1{  padding-top: 50px; padding-bottom: 20px; font-variant: small-caps; font-family: var(--fonte2); font-size: 7vw;}
+body{background-color: #d84835;}
+body{background-image: url(fotos/moldura-de-coracao-romantico-com-a-palavra-amor_95404-244.jpg);}
+main{ max-width: 1200px; text-align: center; background-color: white; color: black; margin: auto; border: 1px solid black;} 
+img{width: 800px;}
+main>p{ padding: 10px; font-size: 1.5em; text-align: justify;} 
+main{ padding-top: 5px; padding-bottom: 5px;}
+#img01{ background-image: url(fotos/foto1-menor.jpg); font-size: 2em; background-position: center center; background-repeat: no-repeat; background-size: cover; background-color: gray; background-attachment: fixed;}
+section{ text-align: left; background-color: rgba(139, 138, 138, 0.527); padding: 50px; margin-bottom: 20px;line-height: 2em;font-size: 2vw;}
+#img01>p{ background-color: rgba(128, 128, 128, 0.562); max-width: 350px;color: white; font-family: var(--fonte3); text-shadow: black; padding: 10px; text-shadow: 2px 2px 2px #000; display: inline-block}  
+#img02>p{background-color: rgba(128, 128, 128, 0.562); max-width: 350px;color: white; font-family: var(--fonte3); text-shadow: black; padding: 10px; text-shadow: 2px 2px 2px #000; display: inline-block}
+#img03>p{background-color: rgba(128, 128, 128, 0.562); max-width: 350px;color: white; font-family: var(--fonte3); text-shadow: black; padding: 10px; text-shadow: 2px 2px 2px #000; display: inline-block}
+#img02{background-image: url(fotos/IMG-20230613-WA0044.jpg); font-size: 2em; background-position: center; background-repeat: no-repeat; background-size: cover; background-color: gray; background-attachment: fixed;}
+#img03{background-image: url(fotos/foto11.jpg); font-size: 2em; background-position: center center;background-repeat: no-repeat; background-size: cover; background-color: gray;  max-width: 1200px;background-attachment: fixed;}
+#img04>p{ background-color: rgba(128, 128, 128, 0.562); max-width: 350px;color: white; font-family: var(--fonte3); text-shadow: black; padding: 10px; text-shadow: 2px 2px 2px #000; display: inline-block;}  
+#img04{background-image: url(fotos/foto13.jpg); font-size: 2em; background-position: center center; background-repeat: no-repeat; background-size: cover; background-color: gray; margin-bottom: 0px; background-attachment: fixed;}
+footer{background-color: black; text-align: center; color: white; padding: 05px;}
